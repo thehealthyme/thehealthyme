@@ -9,16 +9,6 @@
   - __Scrum Master__: Iona Jewel
   - __Development Team Members__: Phillip Schmidt
 
-## Table of Contents
-
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
-    1. [Installing Dependencies](#installing-dependencies)
-    1. [Tasks](#tasks)
-1. [Team](#team)
-1. [Contributing](#contributing)
-
 ## Usage
 
 > Log onto the app and use it...
@@ -66,6 +56,15 @@ To start server with ports forced to 8080 and 8443
 
 To start in debug mode (enables more server-side logging)
  npm run startproddebug
+
+### Deployment
+ - Deployed to: https://beanieio.co.uk 
+ - Deployed on: Digital Ocean $10/m droplet, ubuntu 16.04 base
+
+- Helpful guides for Digital Ocean Ubuntu MEAN setup Links
+    - [How to install mongo on digital ocean ubuntu droplet](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-16-04)
+    - [How to install nodejs on digital ocean ubuntu droplet](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04)
+- Persistent server enabled using forever
 
 ### Roadmap
 
