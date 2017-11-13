@@ -23,7 +23,7 @@ export default class SignUp extends Component {
         password: this.state.password,
         email: this.state.email,
       }).then(resp => {
-        if (resp.status === 201 && resp.statusText === 'Created') { // user successfully created
+        if (resp.status === 201) { // user successfully created
           this.props.onLogin(resp.data.token); // successful signup leads to login
         }
       }).catch(err => {
