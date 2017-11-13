@@ -27,7 +27,6 @@ export default class ReportDashboard extends Component {
       {headers: {'Authorization': 'bearer ' + this.props.getAuth()}}
     ).then(resp => {
       const data = resp.data;
-      console.log(data);
       let feelings = [ ];
       data.emotional.forEach(feeling => feelings.push({group: 'Emotional', field: 'emotionalTags', text: feeling}));
       data.physical.forEach(feeling => feelings.push({group: 'Physical', field: 'physicalTags', text: feeling}));
