@@ -121,4 +121,3 @@ app.get('*', (req, res) => {
 
 module.exports.app = app;
 module.exports.httpPort = httpPort;
-module.exports.httpsPort = httpsPort;
